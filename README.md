@@ -1,6 +1,6 @@
 # Predicting Hepatitis Mortality Rate with Machine Learning
 
-# Hepatitis mortality outcome prediction (Python)
+## Hepatitis mortality outcome prediction (Python)
 
 ## Table of Content
 

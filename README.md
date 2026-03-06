@@ -2,13 +2,24 @@
 
 # Hepatitis mortality outcome prediction (Python)
 
-## Project overview
+## Table of Content
+
+- [Project Overview](#project-overview)
+- [Project question](#project-question)
+- [Workflow](#workflow)
+- [Repository structure](#repository-structure)
+- [Dataset](#dataset)
+- [Key methods](#key-methods)
+- [Results and visuals](#results-and-visuals)
+- [How to run](#how-to-run)
+- 
+### Project Overview
 This project predicts hepatitis patient outcome (die vs live) using a reproducible machine learning workflow. It covers data preparation, exploratory data analysis (EDA), feature selection, baseline model training, evaluation, interpretability, and model saving for reuse or deployment.
 
-## Project question
+### Project question
 Can we use patient clinical and lab features to predict hepatitis mortality outcome and identify the strongest predictors?
 
-## Workflow
+### Workflow
 - Data preparation: load data, clean fields, handle missing values, set correct data types
 - EDA: summarize distributions, missingness, and relationships between variables
 - Feature selection: compare methods (SelectKBest, RFE, ExtraTrees) to find priority predictors
@@ -18,7 +29,7 @@ Can we use patient clinical and lab features to predict hepatitis mortality outc
 - Serialization: save trained models with joblib for reproducibility
 - Optional production: deploy a simple predictor with Streamlit or Flask
 
-## Repository structure
+### Repository structure
 - notebooks/
   - hepatitis_model.ipynb
 - figures/
@@ -33,11 +44,11 @@ Can we use patient clinical and lab features to predict hepatitis mortality outc
 - model_performance.csv
 - requirements.txt
 
-## Dataset
+### Dataset
 The notebook expects a dataset file at:
 - data/hepatitis.data
 
-## Key methods
+### Key methods
 - Data cleaning: missing value handling, standardization of fields, basic validation checks
 - Feature selection:
   - SelectKBest
@@ -57,7 +68,7 @@ The notebook expects a dataset file at:
   - fixed random seeds where possible
   - saved model artifacts with joblib
 
-## Results and visuals
+### Results and visuals
 Selected EDA visuals:
 - ![Outcome distribution](figures/01_class_distribution.png)
 - ![Missing values by feature](figures/02_missing_values_by_feature.png)
@@ -75,7 +86,7 @@ Feature signals:
 Performance summary:
 - model_performance.csv contains benchmark results across the evaluated models.
 
-## How to run
+### How to run
 
 Mac/Linux:
 ```bash

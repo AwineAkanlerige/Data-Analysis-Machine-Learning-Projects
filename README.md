@@ -76,7 +76,7 @@ Selected EDA visuals:
 
 Model evaluation visuals:
 - [Confusion matrix](figures/04_confusion_matrix_RandomForest.png)
-- [Decision Trees](figures/decision_tree)
+- [Decision Trees](figures/decision_tree.png)
 
 Feature signals:
 - [ExtraTrees feature importance](figures/07_feature_importance_extratrees.png)

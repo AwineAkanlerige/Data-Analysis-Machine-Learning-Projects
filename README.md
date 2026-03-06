@@ -75,9 +75,7 @@ Selected EDA visuals:
 - [Correlation heatmap](figures/03_correlation_heatmap.png)
 
 Model evaluation visuals:
-- ![Confusion matrix](figures/04_confusion_matrix_RandomForest.png)
-- ![ROC curve](figures/05_roc_curve_RandomForest.png)
-- ![Precision–Recall curve](figures/06_precision_recall_RandomForest.png)
+- [Confusion matrix](figures/04_confusion_matrix_RandomForest.png)
 
 Feature signals:
 - ![ExtraTrees feature importance](figures/07_feature_importance_extratrees.png)

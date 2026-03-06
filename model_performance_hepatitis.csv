@@ -1,0 +1,4 @@
+model,feature_set,test_size,random_state,accuracy,cm_die_die,cm_die_live,cm_live_die,cm_live_live,precision_die_1,recall_die_1,f1_die_1,support_die_1,precision_live_2,recall_live_2,f1_live_2,support_live_2,accuracy_from_report,support_total,precision_macro,recall_macro,f1_macro,precision_weighted,recall_weighted,f1_weighted,params
+Logistic Regression,all features,0.3,7,0.723404255,2,11,2,32,0.5,0.15,0.24,13,0.74,0.94,0.83,34,0.72,47,0.62,0.55,0.53,0.68,0.72,0.67,default sklearn LogisticRegression()
+Decision Tree,best features,0.3,7,0.7659574468085106,,,,,,,,,,,,,,,,,,,,,default sklearn DecisionTreeClassifier()
+KNN (k=3),best features,0.3,7,0.7446808510638298,,,,,,,,,,,,,,,,,,,,,KNeighborsClassifier(n_neighbors=3)

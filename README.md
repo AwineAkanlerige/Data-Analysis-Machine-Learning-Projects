@@ -70,9 +70,9 @@ The notebook expects a dataset file at:
 
 ### Results and visuals
 Selected EDA visuals:
-- ![Outcome distribution]([figures/01_class_distribution.png](https://github.com/AwineAkanlerige/Data-Analysis-Machine-Learning-Projects/blob/fd7e377f119bf3cbe314c846810967039ae7c214/figures/01_class_distribution.png)
-- ![Missing values by feature](figures/02_missing_values_by_feature.png)
-- ![Correlation heatmap](figures/03_correlation_heatmap.png)
+- [Outcome distribution](figures/01_class_distribution.png)
+- [Missing values by feature](figures/02_missing_values_by_feature.png)
+- [Correlation heatmap](figures/03_correlation_heatmap.png)
 
 Model evaluation visuals:
 - ![Confusion matrix](figures/04_confusion_matrix_RandomForest.png)

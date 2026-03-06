@@ -79,7 +79,7 @@ Model evaluation visuals:
 
 Feature signals:
 - [ExtraTrees feature importance](figures/07_feature_importance_extratrees.png)
-- Logistic regression coefficients](figures/08_logreg_coefficients.png)
+- [Logistic regression coefficients](figures/08_logreg_coefficients.png)
 
 Performance summary:
 - model_performance.csv contains benchmark results across the evaluated models.

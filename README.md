@@ -37,7 +37,6 @@ Can we use patient clinical and lab features to predict hepatitis mortality outc
   - 02_missing_values_by_feature.png
   - 03_correlation_heatmap.png
   - 04_confusion_matrix_RandomForest.png
-  - 05_roc_curve_RandomForest.png
   - 06_precision_recall_RandomForest.png
   - 07_feature_importance_extratrees.png
   - 08_logreg_coefficients.png

@@ -2,7 +2,7 @@
 
 ## Hepatitis mortality outcome prediction (Python)
 
-## Table of Content
+### Table of Content
 
 - [Project Overview](#project-overview)
 - [Project question](#project-question)

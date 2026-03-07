@@ -25,7 +25,7 @@ Can we use patient clinical and lab features to predict hepatitis mortality outc
 - Feature selection: compare methods (SelectKBest, RFE, ExtraTrees) to find priority predictors
 - Modeling: train baseline classifiers (Logistic Regression, KNN, Decision Tree; optional ensembles)
 - Evaluation: confusion matrix, classification report, ROC/PR curves
-- Interpretability: explain predictions using ELI5/LIME (or similar methods)
+- Interpretability: explain predictions using ELI5/LIME
 - Serialization: save trained models with joblib for reproducibility
 - Optional production: deploy a simple predictor with Streamlit or Flask
 
